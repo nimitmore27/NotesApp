@@ -20,7 +20,7 @@ Array.from(deletes).forEach((element) => {
         sno = e.target.id.substr(1);
         if (confirm("Are you sure you want to delete this note!")) {
             console.log("yes");
-            window.location = `/ToDoList/index.php?delete=${sno}`;
+            window.location = `/ToDoListApp/index.php?delete=${sno}`;
         } else {
             console.log("no");
         }
